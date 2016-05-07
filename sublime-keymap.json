@@ -1,0 +1,25 @@
+[
+    { "keys": ["n n"], "command": "advanced_new_file" },
+
+    { "keys": ["super+shift+l"],
+      "command": "insert_snippet",
+      "args": {
+        "contents": "console.log(${1:}$SELECTION);${0}"
+      }
+    }, 
+    { "keys": ["super+shift+m"],
+      "command": "insert_snippet",
+      "args": {
+        "contents": "@media(max-width:${1:}$SELECTION){${0}}"
+      }
+    },
+
+    { "keys": ["super+shift+b"],
+      "command": "insert_snippet",
+      "args": {
+        "contents": "border:1px solid red;$SELECTION"
+      }
+    }
+
+
+]
